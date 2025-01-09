@@ -64,4 +64,4 @@ The interaction zone will no longer be treated as a non-designable region. Inste
 Open an issue for this repository or send emails to weishengzhang@dlut.edu.cn. Pull requests are welcome.
 
 ## Reference
-[1] Weisheng Zhang, Xiaoyu Zhuang, Human-Augmented Topology Optimization Design with Multi-Framework Intervention
+[1] Zhang, Weisheng, Zhuang, Xiaoyu, Guo, Xu, & Youn, Sung-Kie. (2024). Human-Augmented Topology Optimization Design with Multi-Framework Intervention. Engineering with Computers. https://doi.org/10.1007/s00366-024-02102-y
