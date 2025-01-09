@@ -28,41 +28,71 @@ The code builds upon several foundational works in topology optimization, includ
   <p><em>Stress Distribution Cloud Plot of the Results</em></p>
 </div>
 
-### Interaction Instructions:
+### Interaction Instructions
 
-- **Deleting a Component:**
-  - Right-click in the gray space outside the plot window to bring up the menu.
-  - Choose the "Delete" option, select the component to delete, and confirm the deletion.
+#### **Deleting a Component**
+1. Right-click in the gray space outside the plot window to bring up the menu.  
+2. Choose the **"Delete"** option, select the component to delete, and confirm the deletion.
 
-![Right-click Menu Display](https://github.com/user-attachments/assets/a4452519-3924-4cfe-b6ba-283357ada383)
-*Right-click Menu Display*
-![Confirm Deletion Popup](https://github.com/user-attachments/assets/d27df15a-6bc9-436f-8656-13d17cc61bcd)
-*Confirm Deletion Popup*
-![Result After Deletion](https://github.com/user-attachments/assets/54363bf3-432e-48ac-897e-f72cd680f8be)
-*Result After Deletion*
+<div style="display: flex; flex-direction: column; gap: 20px;">
+  <img src="https://github.com/user-attachments/assets/a4452519-3924-4cfe-b6ba-283357ada383" width="50%">
+  <p><em>Right-click Menu Display</em></p>
+  
+  <img src="https://github.com/user-attachments/assets/d27df15a-6bc9-436f-8656-13d17cc61bcd" width="50%">
+  <p><em>Confirm Deletion Popup</em></p>
+  
+  <img src="https://github.com/user-attachments/assets/54363bf3-432e-48ac-897e-f72cd680f8be" width="50%">
+  <p><em>Result After Deletion</em></p>
+</div>
 
-- **Adding a Component:**
-  - Choose "Add Component" from the menu.
-  - Drag the desired component into the window, adjust as needed, then double-click to confirm.
+---
 
-![Add Component Action Example](https://github.com/user-attachments/assets/392136b9-5808-461c-a2cc-eb62112bb35d)
-*Add Component Action Example*
-![Result After Adding Component](https://github.com/user-attachments/assets/cd8a6151-ce8b-4e39-8243-c31e096c3374)
-*Result After Adding Component*
+#### **Adding a Component**
+1. Choose **"Add Component"** from the menu.  
+2. Drag the desired component into the window, adjust as needed, then double-click to confirm.
 
-- **Modifying Component Size:**
-  - Select "Modify Size" from the menu.
-  - Click on the component to resize, enter the new size in the popup window, and confirm the changes.
- 
-![Size Input Window](https://github.com/user-attachments/assets/3ef5c7de-4e48-4fa0-9328-24d41a3885f6)
-*Size Input Window*
+<div style="display: flex; flex-direction: column; gap: 20px;">
+  <img src="https://github.com/user-attachments/assets/392136b9-5808-461c-a2cc-eb62112bb35d" width="50%">
+  <p><em>Add Component Action Example</em></p>
+  
+  <img src="https://github.com/user-attachments/assets/cd8a6151-ce8b-4e39-8243-c31e096c3374" width="50%">
+  <p><em>Result After Adding Component</em></p>
+</div>
 
-- **Resume Optimization:** After completing interactions, select "Continue" from the menu to resume the optimization process in the SIMP framework.
+---
 
-![Final Result](https://github.com/user-attachments/assets/4ccbcf96-449f-49e1-a61f-360121c62279)
-*Final Result*
+#### **Modifying Component Size**
+1. Select **"Modify Size"** from the menu.  
+2. Click on the component to resize, enter the new size in the popup window, and confirm the changes.
 
-- **Repeat Interaction:** Once the optimization completes and the program pauses again, you can make further adjustments in an interactive loop.
+<div style="display: flex; flex-direction: column; gap: 20px;">
+  <img src="https://github.com/user-attachments/assets/3ef5c7de-4e48-4fa0-9328-24d41a3885f6" width="50%">
+  <p><em>Size Input Window</em></p>
+</div>
+
+---
+
+#### **Resume Optimization**
+After completing interactions, select **"Continue"** from the menu to resume the optimization process in the SIMP framework.
+
+<div style="display: flex; flex-direction: column; gap: 20px;">
+  <img src="https://github.com/user-attachments/assets/4ccbcf96-449f-49e1-a61f-360121c62279" width="50%">
+  <p><em>Final Result</em></p>
+</div>
+
+---
+
+#### **Repeat Interaction**
+Once the optimization completes and the program pauses again, you can make further adjustments in an interactive loop.
+
+---
+
+### **Key Notes**
+- Ensure the **Image Processing Toolbox** is installed in MATLAB before running the code.  
+- Monitor the command window for real-time status updates during optimization.  
+- Use the interactive menu to delete, add, or modify components as needed.  
+
+---
 
 ## Future development
 The interaction zone will no longer be treated as a non-designable region. Instead, the impact of user input during interaction will be considered, allowing more flexible adjustments. This change will expand the design space and lead to better-performing solutions.
