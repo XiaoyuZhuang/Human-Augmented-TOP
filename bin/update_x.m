@@ -1,0 +1,9 @@
+nn=size(xval,1);
+[xmma,ymma,zmma,lam,xsi,eta,mu,zet,ss,low,upp] = ...
+    mmasub(m,nn,Loop,xval,xmin,xmax,xold1,xold2, ...
+    f0val,df0dx,fval,dfdx,low,upp,a0,a,c,d);
+xold2 = xold1;xold1 = xval;
+change=max(abs(xval-xmma));
+xval = xmma;xy00=round(xval*1e3)/1e3;
+disp([' It.: ' sprintf('%4i\t',Loop) ' Obj.: ' sprintf('%6.3f\t',f0val) ' Vol.: ' ...
+    sprintf('%6.4f\t',fval) 'ch.:' sprintf('%6.4f\t',change)]);
